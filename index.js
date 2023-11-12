@@ -20,7 +20,7 @@ app.use(express.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(express.static(__dirname + '/public'))
 app.set('view engine', 'ejs');
-app.set('views', 'personal projects/virtual reality/public/views')
+app.set('views', 'personal projects/syncspace-ps/public/views')
 app.use('/uploads',express.static(__dirname+'/uploads'))
 
 const port = 3000;
